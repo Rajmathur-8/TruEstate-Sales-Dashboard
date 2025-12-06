@@ -1,0 +1,81 @@
+# ============================================================
+# 🔥 NODE + EXPRESS + REACT + MYSQL PROJECT GITIGNORE
+# ============================================================
+
+# -----------------------------
+# Node Modules
+# -----------------------------
+node_modules/
+**/node_modules/
+
+# -----------------------------
+# Environment Variables
+# -----------------------------
+.env
+.env.local
+.env.*.local
+
+# -----------------------------
+# Vite Build Output (React)
+# -----------------------------
+dist/
+build/
+
+# -----------------------------
+# Logs
+# -----------------------------
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+logs/
+*.log
+
+# -----------------------------
+# System Files
+# -----------------------------
+.DS_Store
+Thumbs.db
+
+# -----------------------------
+# Temporary Files
+# -----------------------------
+*.tmp
+*.temp
+*.swp
+*.swo
+
+# -----------------------------
+# Editor Files
+# -----------------------------
+.vscode/
+.idea/
+*.iml
+
+# -----------------------------
+# Local Database Files
+# -----------------------------
+*.sql
+*.sql.gz
+*.bak
+*.db
+*.dump
+
+# -----------------------------
+# Optional: CSV Uploads / Data
+# (You can remove this if you WANT CSV pushed)
+# -----------------------------
+data/*.csv
+
+# -----------------------------
+# Production Logs / Cache
+# -----------------------------
+.cache/
+.tmp/
+
+# -----------------------------
+# Mac & Linux Junk Files
+# -----------------------------
+*.wafpickle-*
+*.pyc
+__pycache__/
