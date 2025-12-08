@@ -79,3 +79,7 @@ data/*.csv
 *.wafpickle-*
 *.pyc
 __pycache__/
+
+data/
+backend/data/
+src/scripts/loadCSV.js
