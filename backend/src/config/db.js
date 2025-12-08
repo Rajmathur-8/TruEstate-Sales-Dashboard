@@ -12,7 +12,8 @@ const sequelize = new Sequelize(
     logging: false,
     dialectOptions: {
       ssl: {
-        require: false,      // Railway allows non-SSL
+        require: false,   
+        rejectUnauthorized: false,   
       },
     },
   }
